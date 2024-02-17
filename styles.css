@@ -56,7 +56,8 @@ body{
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: red;
+  color: white;
+  background-color:black;
 }
 h1,h2,p{
   margin: 0;
@@ -122,6 +123,7 @@ img{
 
 /*===== NAV =====*/
 .nav{
+  color:white;
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
